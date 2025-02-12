@@ -35,7 +35,7 @@ function App() {
           <Route path='/user/blogs' element={<BlogPage1/>}/>
           <Route path='/user/followers/:userid' element={<Userfollowers/>}/>
           <Route path='/user/following/:userid' element={<Userfollowing/>}/>
-          <Route path='verify/:token' element={<VerifyUser/>}/>
+          <Route path='/verify/:token' element={<VerifyUser/>}/>
           <Route path='*' element={<PageNotfound/>}/>
         </Route>
       </Routes>
